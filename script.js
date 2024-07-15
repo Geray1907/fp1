@@ -1,4 +1,4 @@
-fetch("../john.json")
+fetch("john.json")
   .then(response => response.json())
   .then(data => {
     window.modalData = data; 
